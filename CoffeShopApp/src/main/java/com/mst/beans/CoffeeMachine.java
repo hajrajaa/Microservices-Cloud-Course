@@ -15,6 +15,7 @@ public class CoffeeMachine {
 	@Value("Nespresso")
 	private String model;
 	
+
 	
 	public String getModel() {
 		return model;

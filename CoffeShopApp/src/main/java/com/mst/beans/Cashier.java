@@ -3,9 +3,11 @@ package com.mst.beans;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+@Scope("prototype")
 public class Cashier {
 	
 	
@@ -19,6 +21,9 @@ public class Cashier {
 	public void getPayment(Customer customer)
 	{
 		System.out.println("Cashier get Payment form customer : + " + customer);
+		
+		
+		
 	}
 	
 	@PreDestroy

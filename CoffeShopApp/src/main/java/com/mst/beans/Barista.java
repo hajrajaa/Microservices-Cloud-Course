@@ -14,16 +14,13 @@ public class Barista {
 	@Autowired
 	private CoffeeMachine machine;
 	
-	@Autowired
-	private Cashier cashier;
-	
 	
 	
 	public void serveCoffe(Customer customer)
 	{
-		customer.orderCoffe();
+		
 		System.out.println("Barista is serving a coffee for : "+ customer);
-		cashier.getPayment(customer);
+		
 		
 	}
 	

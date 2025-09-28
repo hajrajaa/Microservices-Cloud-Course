@@ -7,8 +7,6 @@ import org.springframework.stereotype.Component;
 @Component("proto")
 @Scope("prototype")
 public class Customer {
-	
-
 
 
 
