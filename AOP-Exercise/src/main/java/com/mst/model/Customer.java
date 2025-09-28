@@ -18,13 +18,13 @@ public class Customer {
 		return "Hello MST";
 	}
 	
-	public void addCustomerThrowException () throws Exception
+	public void addCustomerThrowException() throws Exception
 	{ 
 		System.out.println("addCustomerThrowException() is running "); 
 		throw new Exception ("MST Error"); 
 	
 	}
-	public void addCustomerAround (String name)
+	public void addCustomerAround(String name)
 	{ 
 		System.out.println("addCustomerAround () is running, args :" + name); 
 		
